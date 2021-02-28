@@ -1,0 +1,25 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.aboutme__imgs{
+    display: flex;
+    align-items: flex-start;
+}
+.aboutme__imgs img{
+    max-width: 400px;
+    border-radius: 3px;
+}
+.aboutme__imgs img:first-child{
+    margin-right: 10px;
+}
+.aboutme__title{
+    text-align: center;
+    color:#ffad49;
+    font-family: Verdana;
+}
+.aboutme__desc{
+    font-style: italic;
+}
